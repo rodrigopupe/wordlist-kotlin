@@ -1,5 +1,6 @@
-package br.com.rmp.wordlist.dao
+package br.com.rmp.wordlist.database
 
+import androidx.lifecycle.LiveData
 import androidx.room.Dao
 import androidx.room.Insert
 import androidx.room.OnConflictStrategy
@@ -9,7 +10,7 @@ import br.com.rmp.wordlist.entity.Word
 @Dao
 interface WordDao {
     @Query("SELECT * FROM word_table ORDER BY word ASC")
-    fun getWordsSortedAlphabetically(): List<Word>
+    fun getWordsSortedAlphabetically(): LiveData<List<Word>>
 
     @Insert(onConflict = OnConflictStrategy.IGNORE)
     suspend fun insertWord(word: String)
