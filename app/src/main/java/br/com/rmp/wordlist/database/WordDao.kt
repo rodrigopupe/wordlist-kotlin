@@ -13,7 +13,7 @@ interface WordDao {
     fun getWordsSortedAlphabetically(): LiveData<List<Word>>
 
     @Insert(onConflict = OnConflictStrategy.IGNORE)
-    suspend fun insertWord(word: String)
+    suspend fun insertWord(word: Word)
 
     @Query("DELETE FROM word_table")
     suspend fun deleteAllWords()
