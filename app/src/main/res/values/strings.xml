@@ -1,3 +1,7 @@
 <resources>
     <string name="app_name">WordList</string>
+
+    <string name="hint_word">Palavra...</string>
+    <string name="button_save">Salvar</string>
+    <string name="empty_not_saved">A palavra não salva pois o campo está vazio.</string>
 </resources>
