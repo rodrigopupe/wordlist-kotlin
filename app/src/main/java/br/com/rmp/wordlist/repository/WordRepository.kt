@@ -9,7 +9,7 @@ import br.com.rmp.wordlist.entity.Word
 class WordRepository(private val wordDao: WordDao) {
 
     // Room executes all queries on a separate Thread.
-    // Observed LiveData will notify the observer when the data hsa changed.
+    // Observed LiveData will notify the observer when the data has changed.
     val allWords: LiveData<List<Word>> = wordDao.getWordsSortedAlphabetically()
 
     suspend fun insert(word: Word) {
