@@ -60,9 +60,6 @@ abstract class WordRoomDatabase : RoomDatabase() {
             wordDao.insertWord(word)
             word = Word("World")
             wordDao.insertWord(word)
-
-            word = Word("One more")
-            wordDao.insertWord(word)
         }
     }
 }
