@@ -6,7 +6,7 @@ This is a sample app that records (in memory) and shows a sorted list of words.
 
 ## ScreenShots
 
-<img src="readme/Screenshot_1.png" width="320" height="640" /> <img src="readme/Screenshot_2.png" width="320" height="640" /> <img src="readme/Screenshot_3.png" width="320" height="640" /> <img src="readme/Screenshot_4.png" width="320" height="640" /> <img src="readme/Screenshot_5.png" width="320" height="640" />
+<img src="readme/Screenshot_1.png" width="200" height="400" /> <img src="readme/Screenshot_2.png" width="200" height="400" /> <img src="readme/Screenshot_3.png" width="200" height="400" /> <img src="readme/Screenshot_4.png" width="200" height="400" /> <img src="readme/Screenshot_5.png" width="200" height="400" />
 
 ## Contributing
 Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
